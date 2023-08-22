@@ -327,14 +327,14 @@ dymd tx gov vote 1 yes --from $DYM_WALLET --chain-id=$DYM_CHAIN_ID --gas-prices 
 
 ### Validatore Stake Etme / Delegate Etme
 ```
-dymd tx staking delegate $DYM_VALOPER_ADDRESS 100000000uc4e --from=$DYM_WALLET --chain-id=$DYM_CHAIN_ID --gas-prices 0.00001udym --gas-adjustment 1.5 --gas auto -y
+dymd tx staking delegate $DYM_VALOPER_ADDRESS 100000000udym --from=$DYM_WALLET --chain-id=$DYM_CHAIN_ID --gas-prices 0.00001udym --gas-adjustment 1.5 --gas auto -y
 ```
 
 ### Mevcut Validatorden Diğer Validatore Stake Etme / Redelegate Etme
 `srcValidatorAddress`: Mevcut Stake edilen validatorün adresi
 `destValidatorAddress`: Yeni stake edilecek validatorün adresi 
 ```
-dymd tx staking redelegate srcValidatorAddress destValidatorAddress 100000000uc4e --from=$DYM_WALLET --chain-id=$DYM_CHAIN_ID --gas-prices 0.00001udym --gas-adjustment 1.5 --gas auto -y
+dymd tx staking redelegate srcValidatorAddress destValidatorAddress 100000000udym --from=$DYM_WALLET --chain-id=$DYM_CHAIN_ID --gas-prices 0.00001udym --gas-adjustment 1.5 --gas auto -y
 ```
 
 ### Ödülleri Çekme
