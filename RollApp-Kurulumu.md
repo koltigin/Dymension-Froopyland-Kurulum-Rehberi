@@ -10,11 +10,11 @@ roller version
 ```
 
 Çıktı aşağdaki gibi olacak;
-`
+```
 💈 Roller version <latest-version>
 💈 Build time: <build-time>
 💈 Git commit: <git-commit>
-`
+```
 
 ## RollApp Ayarları Yapama
 ```shell
@@ -27,7 +27,7 @@ roller config init --interactive
     - İsim : Küçük İngilizce harfler
     - EIP155 : EIP155 rollapp kimliğini temsil eden 1 ila 10 haneli sayı
     - Sürüm : Sürümü temsil eden 1 ila 5 haneli sayı
-  4. RollApp tokeninin İngilizce harflerle yazılmış adı. Çrneğin BTC, PEPE, DYM
+  4. RollApp tokeninin İngilizce harflerle yazılmış adı. Örneğin BTC, PEPE, DYM
   5. RollApp token arzınızı belirleyin (varsayılan: 1.000.000.000)
   6. Celestia seçiyoruz.
 
