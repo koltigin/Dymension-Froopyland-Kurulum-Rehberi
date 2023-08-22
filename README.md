@@ -88,7 +88,7 @@ wget https://raw.githubusercontent.com/dymensionxyz/testnets/main/dymension-hub/
 # Minimum GAS Ücretinin Ayarlanması
 sed -i 's|^minimum-gas-prices *=.*|minimum-gas-prices = "0.25udym"|g' $HOME/.dymension/config/app.toml
 
-# Indexer'i Kapatma (Opsiyonel)
+# Indexer Kapatma-Opsiyonel
 indexer="null"
 sed -i -e "s/^indexer *=.*/indexer = \"$indexer\"/" $HOME/.dymension/config/config.toml
 
