@@ -1,6 +1,5 @@
 # Dymension Froopyland Kurulum Rehberi
-
-![dymension-GitHub](https://github.com/koltigin/Dymension-Froopyland-Kurulum-Rehberi/assets/102043225/78f67420-91be-4af9-89ee-e8c88e3cb726)
+![dymension-GitHub](https://github.com/koltigin/Dymension-Froopyland-Kurulum-Rehberi/assets/102043225/2d8ac354-9820-44d0-b7cd-d34458f0687a)
 
 ## Bağlantılar
  ✔️ [Website](https://dymension.xyz/)<br>
