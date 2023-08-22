@@ -221,7 +221,7 @@ dymd status 2>&1 | jq .SyncInfo
    - `security-contact`  E-posta adresiniz.
  ```shell 
 dymd tx staking create-validator \
---amount=1000000uc4e \
+--amount=1000000udym \
 --pubkey=$(dymd tendermint show-validator) \
 --moniker=$DYM_NODENAME \
 --chain-id=$DYM_CHAIN_ID \
