@@ -121,8 +121,16 @@ Token talep etmek için de aşağıdaki kodu kullanıyoruz.
 ## ⚠️🚨 Cüzdanları Yedekleme
 ⚠️🚨 RollApp kurarken 3 cüzdanımız oluşmuştu. Bunları yedeklememiz gerekiyor. Aşağıdaki işlemleri yapmayı unutmayalım. 
 - Cüzdan key'lerini görmek için;
- ```roller keys list```
+ ```
+roller keys list
+```
 - Cüzdan key'lerini yedeklemek için;
- ```roller keys export hub_sequencer```
- ```roller keys export rollapp_sequencer```
- ```roller keys export my_celes_key```
+```
+roller keys export hub_sequencer
+```
+```
+ roller keys export rollapp_sequencer
+```
+```
+ roller keys export my_celes_key
+```
