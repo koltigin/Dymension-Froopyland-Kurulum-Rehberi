@@ -78,7 +78,7 @@ roller run
 ```
 tmux ekranından çıkmak için `CTRL+B` basıp ellerinizi bıraktıktan sonra `D` tuşuna basın.
 
-Aşağıdaki gibi bir çıktı alacaksınız. `Registering` yazan yerde `channel-id`'leri göreceksiniz.
+Aşağıdaki gibi bir çıktı alacaksınız. `Starting` yazan yerde `channel-id` göreceksiniz.
 ![image](https://github.com/koltigin/Dymension-Froopyland-Kurulum-Rehberi/assets/102043225/0311bdc6-2536-42f8-a588-18a224a8322c)
 
 - Tablo açıklamaları:
@@ -91,7 +91,7 @@ Aşağıdaki gibi bir çıktı alacaksınız. `Registering` yazan yerde `channel
   Log file path: RollApp günlüklerinin PATH'idir
   ```
 
-🔴 `channel-id`'ler, Height ve Hub değerlerini almadan işleme devam etmiyoruz.
+🔴 `channel-id` almadan işleme devam etmiyoruz.
 
 ## IBC Transfer İşlemi
 Öncelikler RollApp kanallarını kontrol ediyoruz.
