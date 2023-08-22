@@ -56,6 +56,8 @@ Aşağıdaki gibi bir çıktı alacaksınız ve kayıt işleminiz gerçekleşece
 ## RollApp Çalıştırma
 Bu işlemleri tmux ya da screen içerisinde yapabilirsiniz.
 ```shell
+screen -S rollapp
+roller run
 ```
 Aşağıdaki gibi bir çıktı alacaksınız. `Registering` yazan yerde `channel-id`'leri göreceksiniz.
 ![image](https://github.com/koltigin/Dymension-Froopyland-Kurulum-Rehberi/assets/102043225/0311bdc6-2536-42f8-a588-18a224a8322c)
