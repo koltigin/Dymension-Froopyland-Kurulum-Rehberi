@@ -55,10 +55,29 @@ Aşağıdaki gibi bir çıktı alacaksınız ve kayıt işleminiz gerçekleşece
 
 ## RollApp Çalıştırma
 Bu işlemleri tmux ya da screen içerisinde yapabilirsiniz.
+### Screen içinde çalıştırma
+Screen yüklü değilse kurmak için aşağıdaki kod ile yükleyin.
+```shell
+apt install screen
+```
+Screen açıp çalıştırma
 ```shell
 screen -S rollapp
 roller run
 ```
+Screenden çıkmak için `CTRL+A D` tuşlarını kullanın.
+### Tmux içinde çalıştırma
+tmux yüklü değilse kurmak için aşağıdaki kod ile yükleyin.
+```shell
+sudo apt install -y tmux
+```
+tmux açıp çalıştırma
+```shell
+tmux new -s rollapp
+roller run
+```
+tmux ekranından çıkmak için `CTRL+B` basıp ellerinizi bıraktıktan sonra `D` tuşuna basın.
+
 Aşağıdaki gibi bir çıktı alacaksınız. `Registering` yazan yerde `channel-id`'leri göreceksiniz.
 ![image](https://github.com/koltigin/Dymension-Froopyland-Kurulum-Rehberi/assets/102043225/0311bdc6-2536-42f8-a588-18a224a8322c)
 
