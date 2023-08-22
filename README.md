@@ -128,8 +128,8 @@ After=network-online.target
 User=$USER
 ExecStart=$(which dymd) start
 Restart=on-failure
-RestartSec=10
-LimitNOFILE=10000
+RestartSec=3
+LimitNOFILE=65535
 [Install]
 WantedBy=multi-user.target
 EOF
@@ -221,7 +221,7 @@ dymd status 2>&1 | jq .SyncInfo
    - `security-contact`  E-posta adresiniz.
  ```shell 
 dymd tx staking create-validator \
---amount=1000000udym \
+--amount=490000000000000000000udym \
 --pubkey=$(dymd tendermint show-validator) \
 --moniker=$DYM_NODENAME \
 --chain-id=$DYM_CHAIN_ID \
@@ -229,7 +229,7 @@ dymd tx staking create-validator \
 --commission-max-rate=0.20 \
 --commission-max-change-rate=0.05 \
 --min-self-delegation="1" \
---gas-prices=0.1udym \
+--gas-prices=0.25udym \
 --gas-adjustment=1.5 \
 --gas=auto \
 --from=$DYM_WALLET \
