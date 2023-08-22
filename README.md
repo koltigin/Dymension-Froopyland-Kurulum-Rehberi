@@ -195,7 +195,7 @@ source $HOME/.bash_profile
 ```
 
 ## Faucet
- adresine giderek token istiyoruz. 
+[Discord](https://discord.gg/TUVbtZMMpz) sunucusunda `#🚰・froopyland-faucet` kanalına giderek `$request cuzdan-adresi` şekinde mesaj atarak token istiyoruz. 
 
 ### Cüzdan Bakiyesine Bakma
 ```
