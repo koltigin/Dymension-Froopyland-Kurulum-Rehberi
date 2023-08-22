@@ -111,7 +111,7 @@ sed -i -e "s/^pruning-interval *=.*/pruning-interval = \"$pruning_interval\"/" $
 
 # Portları Ayarlama
 sed -i.bak -e "s%^proxy_app = \"tcp://127.0.0.1:26658\"%proxy_app = \"tcp://127.0.0.1:${DYM_PORT}658\"%; s%^laddr = \"tcp://127.0.0.1:26657\"%laddr = \"tcp://127.0.0.1:${DYM_PORT}657\"%; s%^pprof_laddr = \"localhost:6060\"%pprof_laddr = \"localhost:${DYM_PORT}060\"%; s%^laddr = \"tcp://0.0.0.0:26656\"%laddr = \"tcp://0.0.0.0:${DYM_PORT}656\"%; s%^prometheus_listen_addr = \":26660\"%prometheus_listen_addr = \":${DYM_PORT}660\"%" $HOME/.dymension/config/config.toml
-sed -i.bak -e "s%^address = \"tcp://0.0.0.0:1317\"%address = \"tcp://0.0.0.0:${DYM_PORT}317\"%; s%^address = \":8080\"%address = \":${DYM_PORT}080\"%; s%^address = \":8545\"%address = \":${DYM_PORT}545\"%; s%^address = \":8546\"%address = \":${DYM_PORT}546\"%; s%^address = \"0.0.0.0:9090\"%address = \"0.0.0.0:${DYM_PORT}090\"%; s%^address = \"0.0.0.0:9091\"%address = \"0.0.0.0:${DYM_PORT}091\"%" $HOME/.dymension/config/app.toml
+sed -i.bak -e "s%^address = \"tcp://0.0.0.0:1317\"%address = \"tcp://0.0.0.0:${DYM_PORT}317\"%; s%^address = \":8080\"%address = \":${DYM_PORT}080\"%; s%^address = \"0.0.0.0:8545\"%address = \"0.0.0.0:${DYM_PORT}545\"%; s%^ws-address = \"0.0.0.0:8546\"%ws-address = \"0.0.0.0:${DYM_PORT}546\"%; s%^address = \"0.0.0.0:9090\"%address = \"0.0.0.0:${DYM_PORT}090\"%; s%^address = \"0.0.0.0:9091\"%address = \"0.0.0.0:${DYM_PORT}091\"%" $HOME/.dymension/config/app.toml
 sed -i.bak -e "s%^node = \"tcp://localhost:26657\"%node = \"tcp://localhost:${DYM_PORT}657\"%" $HOME/.dymension/config/client.toml
 
 # External Adres Ekleme
