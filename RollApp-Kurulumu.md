@@ -46,7 +46,7 @@ Ardından bir süre sonra faucet kanallarında `$balance cuzdan-adresi` yazarak 
 
 ## RollApp Kaydetme
 ```shell
-roller register
+roller tx register
 ```
 Aşağıdaki gibi bir çıktı alacaksınız ve kayıt işleminiz gerçekleşecek ve rollapp-id'niz oluşacak.
 ```shell
